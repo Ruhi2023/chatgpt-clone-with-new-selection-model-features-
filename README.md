@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## To use openai Api
+step 1 create an api key
+goto https://openai.com/blog/openai-api 
+signup or login
+create your api key
+step 2 paste it
+*const configuration = new Configuration({
+    organization: "",
+    apiKey: "",
+});*
+paste organization id and api in index.js on the relative fields in the above code
